@@ -1,0 +1,51 @@
+{
+    "id": "house.basic",
+    "name": "Basic house object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat", "xpl-trig" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "device": {
+                        "type": "string",
+                        "display": "hidden"
+                    },
+                    "location": {
+                        "type": "integer",
+                        "display": "enable"
+                    },
+                    "keys": {
+                        "type": "string",
+                        "display": "enable"
+                    }
+            },
+            "required": ["device", "location", "keys"]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "id": "ac.basic",
+    "name": "Basic ac object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat", "xpl-trig", "xpl-cmnd" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "address": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "unit": {
+                        "type": "string",
+                        "pattern": "^([0-9]|1[0-5]|group)$",
+                        "display": "disable"
+                    },
+                    "command": {
+                        "type": "string",
+                        "enum": [ "on", "off", "preset", "level" ],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "level": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 15,
+                        "display": "disable"
+                    }
+            },
+            "required": ["address", "unit", "command"]
+        }
+    }
+}

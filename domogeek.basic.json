@@ -1,0 +1,153 @@
+{
+    "id": "domogeek.basic",
+    "name": "Basic domogeek object",
+    "type": "object",
+    "properties": {
+    "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat", "xpl-trig"]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "device": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "latitude": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "longitude": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "myip": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "season": {
+                        "type": "string",
+                        "enum": [ "spring", "summer", "autumn",  "winter" ],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "ejp": {
+                        "type": "string",
+                        "enum": [ "true", "false", "ND", "no data" ],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "holiday": {
+                        "type": "string",
+                        "enum": [ "true", "false" ],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "dayduration": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "sunset": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "schoolholiday": {
+                        "type": "string",
+                        "enum": [ "true", "false"],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "tempocolor": {
+                        "type": "string",
+                        "enum": [ "bleu", "blanc", "rouge" ],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "sunrise": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "zenith": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "vigilanceflood": {
+                        "type": "string",
+                        "enum": [ "vert", "jaune", "orange", "rouge", "vent"],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "vigilancecolor": {
+                        "type": "string",
+                        "enum": [ "vert", "jaune", "orange", "rouge"],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "vigilancerisk": {
+                        "type": "string",
+                        "enum": [ "RAS", "vent", "pluie-inondation", "orages", "inondations", "neige-verglas", "canicule", "grand-froid" ],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "windspeed": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "weekend": {
+                        "type": "string",
+                        "enum": [ "true", "false" ],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "humidity": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "rain": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    },
+                    "pressure": {
+                        "type": "string",
+                        "display": "disable",
+                        "command": false
+                    }
+            },
+            "required": ["device"] 
+        }
+    }
+}

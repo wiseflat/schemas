@@ -1,0 +1,60 @@
+{
+    "id": "osd.basic",
+    "name": "Basic osd object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-cmnd" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "command": {
+                        "type": "string",
+                        "enum": [ "clear", "write", "exclusive", "release" ],
+                        "display": "disable"
+                    },
+                    "text": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "row": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "column": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "delay": {
+                        "type": "string",
+                        "display": "disable"
+                    }
+            },
+            "required": [ "command", "text" ]
+        }
+    }
+}

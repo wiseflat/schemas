@@ -1,0 +1,68 @@
+{
+    "id": "audio.basic",
+    "name": "Basic audio object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-trig", "xpl-stat", "xpl-cmnd" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "command": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "status": {
+                        "type": "string",
+                        "enum": [ "stopped", "playing", "next" ],
+                        "display": "disable"
+                    },
+                    "type": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "station": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "artist": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "album": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "track": {
+                        "type": "string",
+                        "display": "disable"
+                    }
+            },
+            "required": [ "command", "status" ]
+        }
+    }
+}

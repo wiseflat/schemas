@@ -1,0 +1,59 @@
+{
+    "id": "email.basic",
+    "name": "Basic email object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-cmnd" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "text": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "from": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "to": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "cc": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "subject": {
+                        "type": "string",
+                        "display": "disable"
+                    }
+            },
+            "required": [ "text", "from", "to", "cc", "subject" ]
+        }
+    }
+}

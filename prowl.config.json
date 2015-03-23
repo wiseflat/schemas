@@ -1,0 +1,40 @@
+{
+    "id": "prowl.config",
+    "name": "Basic prowl service",
+    "type": "object",
+    "properties": {
+        "headerName": {"type": "string"},
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "enable": {
+                        "type": "boolean",
+                        "display": "enable"
+                    },
+                    "apikey": {
+                        "type": "string",
+                        "display": "enable"
+                    }
+            },
+            "required": [ "enable", "apikey" ]
+        }
+    }
+}

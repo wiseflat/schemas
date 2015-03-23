@@ -1,0 +1,94 @@
+{
+    "id": "output.basic",
+    "name": "Basic output object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat", "xpl-trig", "xpl-cmnd" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "device": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "type": {
+                        "type": "string",
+                        "enum": [ "output" ],
+                        "display": "disable"
+                    },
+                    "current": {
+                        "type": "string",
+                        "enum": [ "HIGH", "LOW" ],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "lowest": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "highest": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "units": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "product": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "ioname": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "iotype": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "source": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "username": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "location_module_user": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "usernamemodul": {
+                        "type": "string",
+                        "display": "disable"
+                    }
+            },
+            "required": ["device", "type", "current"]
+        }
+    }
+}

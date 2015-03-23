@@ -1,0 +1,52 @@
+{
+    "id": "email.config",
+    "name": "Basic email service",
+    "type": "object",
+    "properties": {
+        "headerName": {"type": "string"},
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "enable": {
+                        "type": "boolean",
+                        "display": "enable"
+                    },
+                    "user": {
+                        "type": "string",
+                        "display": "enable"
+                    },
+                    "password": {
+                        "type": "string",
+                        "display": "password"
+                    },
+                    "host": {
+                        "type": "string",
+                        "display": "enable"
+                    },
+                    "ssl": {
+                        "type": "boolean",
+                        "display": "enable"
+                    }
+            },
+            "required": [ "enable", "user", "password", "host", "ssl" ]
+        }
+    }
+}

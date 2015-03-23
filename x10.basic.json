@@ -1,0 +1,73 @@
+{
+    "id": "x10.basic",
+    "name": "Basic x10 object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat", "xpl-trig", "xpl-cmnd" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "device": {
+                        "type": "string",
+                        "pattern": "^[A-Pa-p]([1-9]|1[0-6])$",
+                        "display": "disable"
+                    },
+                    "command": {
+                        "type": "string",
+                        "enum": [ "select", "all_units_off", "all_units_on", "all_lights_on", "all_lights_off", "on", "off", "dim", "bright", "extended", "hail_req", "hail_ack", "predim1", "predim2", "status" ],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "level": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100,
+                        "display": "disable"
+                    },
+                    "data1": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 255,
+                        "display": "disable"
+                    },
+                    "data2": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 255,
+                        "display": "disable"
+                    },
+                    "house": {
+                        "type": "string",
+                        "pattern": "^[A-Pa-p]+$",
+                        "display": "disable"
+                    }
+            },
+            "required": ["device", "command"]
+        }
+    }
+}

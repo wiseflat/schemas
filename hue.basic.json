@@ -1,0 +1,93 @@
+{
+    "id": "hue.basic",
+    "name": "Basic hue object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat", "xpl-trig", "xpl-cmnd" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "device": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "command": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "level": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100,
+                        "display": "disable"
+                    },
+                    "color": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "hue": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "ct": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "alert": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "effect": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "colormode": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "reachable": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "sat": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "xy": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "transitiontime": {
+                        "type": "string",
+                        "display": "disable"
+                    }
+            },
+            "required": ["device", "command"]
+        }
+    }
+}

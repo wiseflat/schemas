@@ -1,0 +1,44 @@
+{
+    "id": "suncalc.config",
+    "name": "Basic suncalc service",
+    "type": "object",
+    "properties": {
+        "headerName": {"type": "string"},
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "enable": {
+                        "type": "boolean",
+                        "display": "enable"
+                    },
+                    "latitude": {
+                        "type": "float",
+                        "display": "enable"
+                    },
+                    "longitude": {
+                        "type": "float",
+                        "display": "enable"
+                    }
+            },
+            "required": [ "enable", "latitude", "longitude" ]
+        }
+    }
+}

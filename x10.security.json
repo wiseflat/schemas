@@ -1,0 +1,65 @@
+{
+    "id": "x10.security",
+    "name": "Basic x10Security object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat", "xpl-trig"]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "device": {
+                        "type": "string",
+                        "pattern": "^[A-Pa-p]([1-9]|1[0-6])$",
+                        "display": "disable"
+                    },
+                    "command": {
+                        "type": "string",
+                        "enum": [ "alert", "normal", "motion", "light", "dark", "arm-home", "arm-away", "disarm", "panic", "lights-on", "lights-off" ],
+                        "display": "disable"
+                    },
+                    "type": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "tamper": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "low-battery": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "delay": {
+                        "type": "string",
+                        "display": "disable"
+                    }                    
+            },
+            "required": ["device", "command"]
+        }
+    }
+}

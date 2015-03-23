@@ -1,0 +1,58 @@
+{
+    "id": "prowl.basic",
+    "name": "Basic prowl object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-cmnd" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "location": {"$ref": "#/definitions/location"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "location": {
+            "properties": {
+                    "location": {
+                        "type": "string"
+                    },
+                    "area": {
+                        "type": "string"
+                    }
+            }
+        },
+        "body": {
+            "properties": {
+                    "application": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "description": {
+                        "type": "string",
+                        "display": "disable"
+                    }
+            },
+            "required": [ "application", "description" ]
+        }
+    }
+}

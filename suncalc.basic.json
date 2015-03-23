@@ -1,0 +1,58 @@
+{
+    "id": "suncalc.basic",
+    "name": "Basic snmp object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat", "xpl-trig" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "type": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "status": {
+                        "type": "string",
+                        "enum": [ "solarNoon", "nadir", "sunrise", "sunriseEnd", "sunsetStart", "dawn", "dusk", "nauticalDawn", "nauticalDusk", "nightEnd", "night", "goldenHourEnd", "goldenHour" ],
+                        "display": "disable",
+                        "command": true
+                    },
+                    "time": {
+                        "type": "string",
+                        "pattern": "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+                        "display": "disable"
+                    },
+                    "info": {
+                        "type": "string",
+                        "display": "disable"
+                    }
+            },
+            "required": ["type", "status", "time", "info"]
+        }
+    }
+}
