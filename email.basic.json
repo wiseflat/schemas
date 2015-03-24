@@ -34,7 +34,8 @@
             "properties": {
                     "text": {
                         "type": "string",
-                        "display": "disable"
+                        "display": "disable",
+                        "command": true
                     },
                     "from": {
                         "type": "string",
@@ -50,7 +51,8 @@
                     },
                     "subject": {
                         "type": "string",
-                        "display": "disable"
+                        "display": "disable",
+                        "command": true
                     }
             },
             "required": [ "text", "from", "to", "cc", "subject" ]
