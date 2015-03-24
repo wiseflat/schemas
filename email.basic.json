@@ -5,7 +5,7 @@
     "properties": {
         "headerName": {
             "type": "string",
-            "enum": [ "xpl-cmnd", "xpl-stat" ]
+            "enum": [ "xpl-cmnd", "xpl-stat", "xpl-trig" ]
         },
         "header": {"$ref": "#/definitions/header"},
         "bodyName": {"type": "string"},

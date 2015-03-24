@@ -5,7 +5,7 @@
     "properties": {
         "headerName": {
             "type": "string",
-            "enum": [ "xpl-cmnd" ]
+            "enum": [ "xpl-cmnd", "xpl-stat", "xpl-trig" ]
         },
         "header": {"$ref": "#/definitions/header"},
         "location": {"$ref": "#/definitions/location"},
@@ -49,7 +49,8 @@
                     },
                     "description": {
                         "type": "string",
-                        "display": "disable"
+                        "display": "disable",
+                        "command": false
                     }
             },
             "required": [ "application", "description" ]
