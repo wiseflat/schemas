@@ -51,8 +51,7 @@
                     },
                     "subject": {
                         "type": "string",
-                        "display": "disable",
-                        "command": true
+                        "display": "disable"
                     }
             },
             "required": [ "text", "from", "to", "cc", "subject" ]
