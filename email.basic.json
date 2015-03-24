@@ -34,7 +34,8 @@
             "properties": {
                     "text": {
                         "type": "string",
-                        "display": "disable"
+                        "display": "disable",
+                        "command": false
                     },
                     "from": {
                         "type": "string",
