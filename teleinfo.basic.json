@@ -125,7 +125,7 @@
                         "display": "disable"
                     }
             },
-            "required": ["adco", "optarif", "isousc", "base", "iinst", "imax", "motdetat", "hchc", "hchp", "ejphn", "ejphpm", "bbrhcjb", "bbrhpjb", "bbrhcjw", "bbrhpjw", "bbrhcjr", "bbrhpjr", "pejp", "ptec", "demain", "adps", "papp", "hhphc" ]
+            "required": ["adco"]
         }
     }
 }
