@@ -52,6 +52,10 @@
                         "minimum": 0,
                         "maximum": 15,
                         "display": "disable"
+                    },
+                    "rssi": {
+                        "type": "integer",
+                        "display": "disable"
                     }
             },
             "required": ["address", "unit", "command"]
