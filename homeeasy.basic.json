@@ -44,7 +44,8 @@
                     "command": {
                         "type": "string",
                         "enum": [ "on", "off", "preset", "level" ],
-                        "display": "disable"
+                        "display": "disable",
+                        "command": true
                     },
                     "level": {
                         "type": "integer",
