@@ -12,6 +12,7 @@
         "bodyName": {"type": "string"},
         "body": {"$ref": "#/definitions/body"},
         "label": {"type": "string"},
+        "bookmark": {"type": "boolean"},
         "house": {"type": "string"},
         "category": {"type": "string"},
         "commands": {"type": "array"}
