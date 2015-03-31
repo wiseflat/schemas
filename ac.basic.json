@@ -14,7 +14,7 @@
         "bookmark": {"type": "boolean"},
         "house": {"type": "string"},
         "category": {"type": "string"},
-        "commands": {"type": "array"},
+        "commands": {"type": "array"}
     },
     "definitions": {
         "header": {
