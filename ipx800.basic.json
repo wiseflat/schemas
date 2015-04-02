@@ -37,16 +37,12 @@
                         "type": "string",
                         "display": "disable"
                     },
-                    "type": {
-                        "type": "string",
-                        "display": "disable"
-                    },
                     "command": {
                         "type": "string",
                         "display": "disable"
                     }
             },
-            "required": [ "device", "type", "command" ]
+            "required": [ "device", "command" ]
         }
     }
 }

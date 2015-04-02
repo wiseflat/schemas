@@ -36,17 +36,9 @@
                     "port": {
                         "type": "string",
                         "display": "enable"
-                    },
-                    "login": {
-                        "type": "string",
-                        "display": "enable"
-                    },
-                    "password": {
-                        "type": "string",
-                        "display": "enable"
                     }
             },
-            "required": [ "enable", "host", "port", "login", "password" ]
+            "required": [ "enable", "host", "port" ]
         }
     }
 }
