@@ -38,8 +38,10 @@
                         "display": "disable"
                     },
                     "command": {
-                        "type": "string",
-                        "display": "disable"
+                        "type": "integer",
+                        "enum": [ "0", "1" ],
+                        "display": "disable",
+                        "command": true
                     }
             },
             "required": [ "device", "command" ]
