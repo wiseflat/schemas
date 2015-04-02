@@ -1,0 +1,52 @@
+{
+    "id": "ipx800.config",
+    "name": "Basic ipx800 config",
+    "type": "object",
+    "properties": {
+        "headerName": {"type": "string"},
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "enable": {
+                        "type": "boolean",
+                        "display": "enable"
+                    },
+                    "host": {
+                        "type": "string",
+                        "display": "enable"
+                    },
+                    "port": {
+                        "type": "string",
+                        "display": "enable"
+                    },
+                    "login": {
+                        "type": "string",
+                        "display": "enable"
+                    },
+                    "password": {
+                        "type": "string",
+                        "display": "enable"
+                    }
+            },
+            "required": [ "enable", "host", "port", "login", "password" ]
+        }
+    }
+}
