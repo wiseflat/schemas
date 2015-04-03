@@ -75,6 +75,10 @@ function schemas(){
            markup.push(data);
         }),
 
+        $.getJSON( "schemas/ipx800.config.json", function( data ) {
+           markup.push(data);
+        }),
+        
         $.getJSON( "schemas/osd.basic.json", function( data ) {
            markup.push(data);
         }),
