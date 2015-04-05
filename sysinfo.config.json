@@ -1,6 +1,6 @@
 {
     "id": "sysinfo.config",
-    "name": "Basic sysinfo service",
+    "name": "Config sysinfo service",
     "type": "object",
     "properties": {
         "headerName": {

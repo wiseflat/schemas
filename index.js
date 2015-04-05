@@ -95,6 +95,10 @@ function schemas(){
            markup.push(data);
         }),
 
+        $.getJSON( "schemas/rfxtrx.config.json", function( data ) {
+           markup.push(data);
+        }),
+        
         $.getJSON( "schemas/sensor.basic.json", function( data ) {
            markup.push(data);
         }),
@@ -123,6 +127,10 @@ function schemas(){
            markup.push(data);
         }),
 
+        $.getJSON( "schemas/sysinfo.config.json", function( data ) {
+           markup.push(data);
+        }),
+        
         /*$.getJSON( "schemas/teleinfo.basic.json", function( data ) {
            markup.push(data);
         }),*/
