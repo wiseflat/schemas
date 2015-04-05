@@ -1,0 +1,43 @@
+{
+    "id": "sysinfo.config",
+    "name": "Basic sysinfo service",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat", "xpl-cmnd" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "version": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "enable": {
+                        "type": "boolean",
+                        "display": "enable"
+                    }
+            },
+            "required": ["version", "enable"]
+        }
+    }
+}
