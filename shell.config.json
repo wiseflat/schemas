@@ -25,6 +25,10 @@
         },
         "body": {
             "properties": {
+                    "version": {
+                        "type": "string",
+                        "display": "disable"
+                    },
                     "enable": {
                         "type": "boolean",
                         "display": "enable"
