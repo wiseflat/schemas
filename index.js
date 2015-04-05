@@ -131,11 +131,11 @@ function schemas(){
            markup.push(data);
         }),
         
-        /*$.getJSON( "schemas/teleinfo.basic.json", function( data ) {
-           markup.push(data);
-        }),*/
-        
         $.getJSON( "schemas/teleinfo2.basic.json", function( data ) {
+           markup.push(data);
+        }),
+        
+        $.getJSON( "schemas/teleinfo.config.json", function( data ) {
            markup.push(data);
         }),
 
