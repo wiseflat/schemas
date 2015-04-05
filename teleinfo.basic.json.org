@@ -1,0 +1,131 @@
+{
+    "id": "teleinfo.basic",
+    "name": "Basic teleinfo object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat", "xpl-trig" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+        "label": {"type": "string"},
+        "house": {"type": "string"},
+        "category": {"type": "string"},
+        "commands": {"type": "array"}
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "adco": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "optarif": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "isousc": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "base": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "iinst": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "imax": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "motdetat": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "hchc": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "hchp": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "ejphn": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "ejphpm": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "bbrhcjb": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "bbrhpjb": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "bbrhcjw": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "bbrhpjw": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "bbrhcjr": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "bbrhpjr": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "pejp": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "ptec": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "demain": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "adps": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "papp": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "hhphc": {
+                        "type": "string",
+                        "display": "disable"
+                    }
+            },
+            "required": ["adco", "optarif", "isousc", "base", "iinst", "imax", "motdetat", "hchc", "hchp", "ejphn", "ejphpm", "bbrhcjb", "bbrhpjb", "bbrhcjw", "bbrhpjw", "bbrhcjr", "bbrhpjr", "pejp", "ptec", "demain", "adps", "papp", "hhphc" ]
+        }
+    }
+}
