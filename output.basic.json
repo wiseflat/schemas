@@ -1,6 +1,6 @@
 {
     "id": "output.basic",
-    "name": "Basic output object",
+    "name": "Output object",
     "type": "object",
     "properties": {
         "headerName": {

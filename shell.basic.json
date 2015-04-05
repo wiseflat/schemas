@@ -1,6 +1,6 @@
 {
     "id": "shell.basic",
-    "name": "Basic shell object",
+    "name": "Shell object",
     "type": "object",
     "properties": {
         "headerName": {

@@ -1,6 +1,6 @@
 {
     "id": "prowl.config",
-    "name": "Basic prowl service",
+    "name": "Prowl service",
     "type": "object",
     "properties": {
         "headerName": {"type": "string"},

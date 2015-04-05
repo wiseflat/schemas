@@ -1,6 +1,6 @@
 {
     "id": "snmp.basic",
-    "name": "Basic snmp object",
+    "name": "Snmp object",
     "type": "object",
     "properties": {
         "headerName": {

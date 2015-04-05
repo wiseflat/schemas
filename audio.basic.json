@@ -1,6 +1,6 @@
 {
     "id": "audio.basic",
-    "name": "Basic audio object",
+    "name": "Audio object",
     "type": "object",
     "properties": {
         "headerName": {

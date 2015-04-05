@@ -1,6 +1,6 @@
 {
     "id": "ipx800.basic",
-    "name": "Basic ipx800 object",
+    "name": "Ipx800 object",
     "type": "object",
     "properties": {
         "headerName": {

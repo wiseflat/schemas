@@ -1,6 +1,6 @@
 {
     "id": "prowl.basic",
-    "name": "Basic prowl object",
+    "name": "Prowl object",
     "type": "object",
     "properties": {
         "headerName": {

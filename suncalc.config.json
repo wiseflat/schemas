@@ -1,6 +1,6 @@
 {
     "id": "suncalc.config",
-    "name": "Basic suncalc service",
+    "name": "Suncalc service",
     "type": "object",
     "properties": {
         "headerName": {"type": "string"},

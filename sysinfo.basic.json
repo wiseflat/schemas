@@ -1,6 +1,6 @@
 {
     "id": "sysinfo.basic",
-    "name": "Basic sysinfo object",
+    "name": "Sysinfo object",
     "type": "object",
     "properties": {
         "headerName": {

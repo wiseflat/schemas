@@ -1,6 +1,6 @@
 {
     "id": "domogeek.basic",
-    "name": "Basic domogeek object",
+    "name": "Domogeek object",
     "type": "object",
     "properties": {
     "headerName": {

@@ -1,6 +1,6 @@
 {
     "id": "shell.config",
-    "name": "Basic shell config",
+    "name": "Shell config",
     "type": "object",
     "properties": {
         "headerName": {"type": "string"},

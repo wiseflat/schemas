@@ -1,6 +1,6 @@
 {
     "id": "homeeasy.basic",
-    "name": "Basic homeeasy object",
+    "name": "Homeeasy object",
     "type": "object",
     "properties": {
     "headerName": {

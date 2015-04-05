@@ -1,6 +1,6 @@
 {
     "id": "cid.shomes",
-    "name": "Basic cid object",
+    "name": "CID shomes object",
     "type": "object",
     "properties": {
 "headerName": {

@@ -1,6 +1,6 @@
 {
     "id": "x10.basic",
-    "name": "Basic x10 object",
+    "name": "X10 object",
     "type": "object",
     "properties": {
         "headerName": {

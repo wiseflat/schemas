@@ -1,6 +1,6 @@
 {
     "id": "alarm.config",
-    "name": "Basic alarm service",
+    "name": "Alarm service",
     "type": "object",
     "properties": {
         "headerName": {

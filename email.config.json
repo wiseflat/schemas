@@ -1,6 +1,6 @@
 {
     "id": "email.config",
-    "name": "Basic email service",
+    "name": "Email service",
     "type": "object",
     "properties": {
         "headerName": {"type": "string"},

@@ -1,6 +1,6 @@
 {
     "id": "cid.basic",
-    "name": "Basic cid object",
+    "name": "CID object",
     "type": "object",
     "properties": {
 "headerName": {

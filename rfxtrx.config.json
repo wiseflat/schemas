@@ -1,6 +1,6 @@
 {
     "id": "rfxtrx.config",
-    "name": "Basic rfxtrx service",
+    "name": "Rfxtrx service",
     "type": "object",
     "properties": {
         "headerName": {

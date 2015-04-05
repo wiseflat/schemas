@@ -1,6 +1,6 @@
 {
     "id": "hue.basic",
-    "name": "Basic hue object",
+    "name": "Hue object",
     "type": "object",
     "properties": {
         "headerName": {

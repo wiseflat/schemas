@@ -1,6 +1,6 @@
 {
     "id": "datetime.basic",
-    "name": "Basic datetime object",
+    "name": "Datetime object",
     "type": "object",
     "properties": {
         "headerName": {

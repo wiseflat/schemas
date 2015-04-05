@@ -1,6 +1,6 @@
 {
     "id": "email.basic",
-    "name": "Basic email object",
+    "name": "Email object",
     "type": "object",
     "properties": {
         "headerName": {

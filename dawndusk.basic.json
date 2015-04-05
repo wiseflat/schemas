@@ -1,6 +1,6 @@
 {
     "id": "dawndusk.basic",
-    "name": "Basic dawndusk object",
+    "name": "Dawndusk object",
     "type": "object",
     "properties": {
         "headerName": {

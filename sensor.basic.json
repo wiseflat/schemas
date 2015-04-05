@@ -1,6 +1,6 @@
 {
     "id": "sensor.basic",
-    "name": "Basic sensor object",
+    "name": "Sensor object",
     "type": "object",
     "properties": {
         "headerName": {

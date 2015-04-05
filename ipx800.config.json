@@ -1,6 +1,6 @@
 {
     "id": "ipx800.config",
-    "name": "Basic ipx800 config",
+    "name": "Ipx800 service",
     "type": "object",
     "properties": {
         "headerName": {"type": "string"},

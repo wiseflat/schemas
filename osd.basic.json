@@ -1,6 +1,6 @@
 {
     "id": "osd.basic",
-    "name": "Basic osd object",
+    "name": "Osd object",
     "type": "object",
     "properties": {
         "headerName": {

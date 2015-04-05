@@ -1,6 +1,6 @@
 {
     "id": "remote.basic",
-    "name": "Basic remote object",
+    "name": "Remote object",
     "type": "object",
     "properties": {
         "headerName": {

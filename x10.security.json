@@ -1,6 +1,6 @@
 {
     "id": "x10.security",
-    "name": "Basic x10Security object",
+    "name": "X10 Security object",
     "type": "object",
     "properties": {
         "headerName": {

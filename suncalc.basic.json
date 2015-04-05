@@ -1,6 +1,6 @@
 {
     "id": "suncalc.basic",
-    "name": "Basic snmp object",
+    "name": "Suncalc object",
     "type": "object",
     "properties": {
         "headerName": {

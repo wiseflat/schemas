@@ -1,6 +1,6 @@
 {
     "id": "control.basic",
-    "name": "basic control object",
+    "name": "Control object",
     "type": "object",
     "properties": {
         "headerName": {

@@ -1,6 +1,6 @@
 {
     "id": "ac.basic",
-    "name": "Basic ac object",
+    "name": "AC object",
     "type": "object",
     "properties": {
         "headerName": {

@@ -1,6 +1,6 @@
 {
     "id": "alarm.basic",
-    "name": "Basic alarm object",
+    "name": "Alarm object",
     "type": "object",
     "properties": {
         "headerName": {

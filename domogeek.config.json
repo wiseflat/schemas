@@ -1,6 +1,6 @@
 {
     "id": "domogeek.config",
-    "name": "Basic domogeek service",
+    "name": "Domogeek service",
     "type": "object",
     "properties": {
         "headerName": {"type": "string"},

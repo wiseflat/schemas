@@ -1,6 +1,6 @@
 {
     "id": "teleinfo.basic",
-    "name": "Basic teleinfo object",
+    "name": "Teleinfo object",
     "type": "object",
     "properties": {
         "headerName": {

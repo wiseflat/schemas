@@ -1,6 +1,6 @@
 {
     "id": "house.basic",
-    "name": "Basic house object",
+    "name": "House object",
     "type": "object",
     "properties": {
         "headerName": {

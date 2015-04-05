@@ -1,6 +1,6 @@
 {
     "id": "input.basic",
-    "name": "Basic input object",
+    "name": "Input object",
     "type": "object",
     "properties": {
         "headerName": {
