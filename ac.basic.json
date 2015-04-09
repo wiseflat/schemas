@@ -59,7 +59,7 @@
                         "display": "disable"
                     }
             },
-            "required": ["device", "unit", "command"]
+            "required": ["address", "unit", "command"]
         }
     }
 }
