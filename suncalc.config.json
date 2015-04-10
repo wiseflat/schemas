@@ -42,7 +42,7 @@
                         "display": "enable"
                     }
             },
-            "required": [ "enable", "latitude", "longitude" ]
+            "required": [ "version", "enable", "latitude", "longitude" ]
         }
     }
 }
