@@ -33,7 +33,7 @@
         },
         "body": {
             "properties": {
-                    "address": {
+                    "device": {
                         "type": "string",
                         "display": "disable"
                     },
@@ -59,7 +59,7 @@
                         "display": "disable"
                     }
             },
-            "required": ["address", "unit", "command"]
+            "required": ["device", "unit", "command"]
         }
     }
 }
