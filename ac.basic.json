@@ -33,7 +33,7 @@
         },
         "body": {
             "properties": {
-                    "device": {
+                    "address": {
                         "type": "string",
                         "display": "disable"
                     },
