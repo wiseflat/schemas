@@ -33,12 +33,24 @@
                         "type": "boolean",
                         "display": "enable"
                     },
-                    "interval": {
-                        "type": "integer",
+                    "city": {
+                        "type": "string",
+                        "display": "enable"
+                    },
+                    "area": {
+                        "type": "string",
+                        "display": "enable"
+                    },
+                    "schoolarea": {
+                        "type": "string",
+                        "display": "enable"
+                    },
+                    "postcode": {
+                        "type": "string",
                         "display": "enable"
                     }
             },
-            "required": ["enable"]
+            "required": ["enable", "city", "area", "schoolarea", "postcode"]
         }
     }
 }
