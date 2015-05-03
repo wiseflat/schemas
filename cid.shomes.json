@@ -3,7 +3,7 @@
     "name": "CID shomes object",
     "type": "object",
     "properties": {
-"headerName": {
+        "headerName": {
             "type": "string",
             "enum": [ "xpl-stat", "xpl-trig"]
         },

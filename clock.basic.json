@@ -9,7 +9,7 @@
         },
         "header": {"$ref": "#/definitions/header"},
         "bodyName": {"type": "string"},
-        "body": {"$ref": "#/definitions/body"},
+        "body": {"$ref": "#/definitions/body"}
     },
     "definitions": {
         "header": {
@@ -38,7 +38,7 @@
                     },
                     "dayOfWeek": {
                         "type": "string",
-                        "display": "disable",
+                        "display": "disable"
                     },
                     "year": {
                         "type": "integer",
