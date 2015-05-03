@@ -1,0 +1,59 @@
+{
+    "id": "clock.basic",
+    "name": "Clock object",
+    "type": "object",
+    "properties": {
+        "headerName": {
+            "type": "string",
+            "enum": [ "xpl-stat" ]
+        },
+        "header": {"$ref": "#/definitions/header"},
+        "bodyName": {"type": "string"},
+        "body": {"$ref": "#/definitions/body"},
+    },
+    "definitions": {
+        "header": {
+            "properties": {
+                    "hop": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    }
+            },
+            "required": ["hop", "source", "target"]
+        },
+        "body": {
+            "properties": {
+                    "date": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "time": {
+                        "type": "string",
+                        "display": "disable"
+                    },
+                    "dayOfWeek": {
+                        "type": "string",
+                        "display": "disable",
+                    },
+                    "year": {
+                        "type": "integer",
+                        "display": "disable"
+                    },
+                    "month": {
+                        "type": "integer",
+                        "display": "disable"
+                    },
+                    "day": {
+                        "type": "integer",
+                        "display": "disable"
+                    }
+            },
+            "required": ["date", "time", "dayOfWeek", "year", "month", "day"]
+        }
+    }
+}
