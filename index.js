@@ -26,23 +26,19 @@ function schemas(){
         $.getJSON( "schemas/cid.shomes.json", function( data ) {
            markup.push(data);
         }),
+        
+        $.getJSON( "schemas/clock.basic.json", function( data ) {
+           markup.push(data);
+        }),
              
-        $.getJSON( "schemas/input.basic.json", function( data ) {
-           markup.push(data);
-        }),
-                
-        $.getJSON( "schemas/output.basic.json", function( data ) {
-           markup.push(data);
-        }),
-                
         $.getJSON( "schemas/control.basic.json", function( data ) {
            markup.push(data);
         }),
-
+        
         $.getJSON( "schemas/datetime.basic.json", function( data ) {
            markup.push(data);
         }),
-
+        
         $.getJSON( "schemas/dawndusk.basic.json", function( data ) {
            markup.push(data);
         }),
@@ -70,7 +66,12 @@ function schemas(){
         $.getJSON( "schemas/hue.basic.json", function( data ) {
            markup.push(data);
         }),
-
+        
+        
+        $.getJSON( "schemas/input.basic.json", function( data ) {
+           markup.push(data);
+        }),
+        
         $.getJSON( "schemas/ipx800.basic.json", function( data ) {
            markup.push(data);
         }),
@@ -82,6 +83,10 @@ function schemas(){
         $.getJSON( "schemas/osd.basic.json", function( data ) {
            markup.push(data);
         }),
+                
+        $.getJSON( "schemas/output.basic.json", function( data ) {
+           markup.push(data);
+        }),
 
         $.getJSON( "schemas/prowl.basic.json", function( data ) {
            markup.push(data);
@@ -91,6 +96,14 @@ function schemas(){
            markup.push(data);
         }),
 
+        $.getJSON( "schemas/radio.basic.json", function( data ) {
+           markup.push(data);
+        }),
+        
+        $.getJSON( "schemas/radio.config.json", function( data ) {
+           markup.push(data);
+        }),
+        
         $.getJSON( "schemas/remote.basic.json", function( data ) {
            markup.push(data);
         }),
@@ -135,22 +148,22 @@ function schemas(){
            markup.push(data);
         }),
         
-        $.getJSON( "schemas/teleinfo.config.json", function( data ) {
+        /*$.getJSON( "schemas/teleinfo.config.json", function( data ) {
            markup.push(data);
-        }),
+        }),*/
 
         $.getJSON( "schemas/x10.basic.json", function( data ) {
            markup.push(data);
         }),
+        
+        $.getJSON( "schemas/x10.config.json", function( data ) {
+           markup.push(data);
+        })
 
         $.getJSON( "schemas/x10.security.json", function( data ) {
            markup.push(data);
         })
 
-        $.getJSON( "schemas/x10.config.json", function( data ) {
-           markup.push(data);
-        })
-        
         .done(function(){
             window.localStorage.setItem("schemas", JSON.stringify(markup));
         });
