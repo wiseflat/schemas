@@ -8,7 +8,7 @@
       "label": "Domogeek",
       "Category": "Weather, plugin",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-domogeek/master/package.json",
-      "description": "",
+      "description": "Nice API",
       "price": "free"
     },
     {
@@ -16,7 +16,7 @@
       "label": "Email",
       "Category": "Notification",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-email/master/package.json",
-      "description": "",
+      "description": "Send email to your favorite SMTP server",
       "price": "free"
     },
     {
@@ -24,7 +24,7 @@
       "label": "Ipx800",
       "Category": "Gateway",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-ipx800/master/package.json",
-      "description": "",
+      "description": "Ipx800 v2/v3 gateway",
       "price": "free"
     },
     {
@@ -32,7 +32,7 @@
       "label": "Prowl",
       "Category": "Notification",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-prowl/master/package.json",
-      "description": "",
+      "description": "Send push notification to your smartphone",
       "price": "free"
     },
     {
@@ -40,14 +40,14 @@
       "label": "Rfxtrx",
       "Category": "Gateway",
       "package": "https://raw.githubusercontent.com/Nodejs-XPL/xpl-rfxtrx/master/package.json",
-      "description": "",
+      "description": "Rfxcom Rfxtrx gateway",
       "price": "free"
     },
     {
       "device": "appstore-shell",
       "label": "Shell",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-shell/master/package.json",
-      "description": "",
+      "description": "Execute your personnal shell script",
       "price": "free"
     },
     {
@@ -55,7 +55,7 @@
       "label": "Suncalc",
       "Category": "Weather",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-suncalc/master/package.json",
-      "description": "",
+      "description": "Get the sun calculation and some fun meteo informations",
       "price": "free"
     },
     {
@@ -63,14 +63,14 @@
       "label": "Sysinfo",
       "Category": "System",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-sysinfo/master/package.json",
-      "description": "",
+      "description": "Monitor your system activity",
       "price": "free"
     },
     {
       "device": "appstore-teleinfo",
       "label": "Teleinfo",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-teleinfo/master/package.json",
-      "description": "",
+      "description": "Edf teleinformation",
       "price": "free"
     },
     {
@@ -78,7 +78,7 @@
       "label": "X10",
       "Category": "Gateway",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-x10/master/package.json",
-      "description": "",
+      "description": "X10 gateway",
       "price": "free"
     },
     {
@@ -86,7 +86,7 @@
       "label": "Timer",
       "Category": "widget",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-timer/master/package.json",
-      "description": "",
+      "description": "Just a basic egg timer",
       "price": "free"
     }
   ]
