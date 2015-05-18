@@ -166,7 +166,7 @@ function schemas(){
         }),
 
         $.getJSON( "schemas/appStore.json", function( data ) {
-           styore.push(data);
+           store.push(data);
         })
         
         /*$.getJSON( "schemas/store.basic.json", function( data ) {
