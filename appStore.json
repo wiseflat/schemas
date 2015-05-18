@@ -1,12 +1,12 @@
 {
-  "category": ["Communication", "Comfort", "Energy", "Meteo", "Monitoring", "Multimedia", "Music", "Gateway", "Programming", "Security"],
+  "category": ["Comfort", "Energy", "Gateway", "Meteo", "Monitoring", "Multimedia", "Music", "Notification", "Programming", "Security", "System", "Widget"],
   "apps" : 
 
     [
     {
       "device": "appstore-domogeek",
       "label": "Domogeek",
-      "category": "Weather, plugin",
+      "category": "Meteo",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-domogeek/master/package.json",
       "description": "Nice API",
       "price": "free"
@@ -46,6 +46,7 @@
     {
       "device": "appstore-shell",
       "label": "Shell",
+      "category": "Programming",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-shell/master/package.json",
       "description": "Execute your personnal shell script",
       "price": "free"
@@ -53,7 +54,7 @@
     {
       "device": "appstore-suncalc",
       "label": "Suncalc",
-      "category": "Weather",
+      "category": "Meteo",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-suncalc/master/package.json",
       "description": "Get the sun calculation and some fun meteo informations",
       "price": "free"
@@ -69,6 +70,7 @@
     {
       "device": "appstore-teleinfo",
       "label": "Teleinfo",
+      "category": "Energy",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-teleinfo/master/package.json",
       "description": "Edf teleinformation",
       "price": "free"
