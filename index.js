@@ -1,6 +1,7 @@
 function schemas(){
     
     var markup = [];
+    var store = [];
 
     $.when( 
         $.getJSON( "schemas/ac.basic.json", function( data ) {
@@ -165,7 +166,7 @@ function schemas(){
         }),
 
         $.getJSON( "schemas/appStore.json", function( data ) {
-           markup.push(data);
+           styore.push(data);
         })
         
         /*$.getJSON( "schemas/store.basic.json", function( data ) {
@@ -178,6 +179,6 @@ function schemas(){
         
         .done(function(){
             window.localStorage.setItem("schemas", JSON.stringify(markup));
+            window.localStorage.setItem("store", JSON.stringify(store));
         });
-        
 }
