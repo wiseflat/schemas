@@ -165,7 +165,7 @@ function schemas(){
            markup.push(data);
         }),
 
-        $.getJSON( "schemas/appStore.json", function( data ) {
+        $.getJSON( "http://wiseflat.com/appStore.json", function( data ) {
            store.push(data);
         })
         
