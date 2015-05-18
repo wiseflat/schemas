@@ -163,6 +163,10 @@ function schemas(){
 
         $.getJSON( "schemas/x10.security.json", function( data ) {
            markup.push(data);
+        }),
+
+        $.getJSON( "schemas/appStore.json", function( data ) {
+           store.push(data);
         })
         
         /*$.getJSON( "schemas/store.basic.json", function( data ) {
@@ -175,16 +179,7 @@ function schemas(){
         
         .done(function(){
             window.localStorage.setItem("schemas", JSON.stringify(markup));
-            
+            window.localStorage.setItem("store", JSON.stringify(store));
         });
 }
 
-function appstore(args) {
-    $.ajax({
-        url: 'http://wiseflat.com/appStore.json',
-        dataType: 'json',
-        success: function(data){
-            window.localStorage.setItem("store", JSON.stringify(store));
-        }
-    });
-}
