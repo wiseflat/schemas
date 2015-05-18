@@ -158,12 +158,24 @@ function schemas(){
         
         $.getJSON( "schemas/x10.config.json", function( data ) {
            markup.push(data);
-        })
+        }),
 
         $.getJSON( "schemas/x10.security.json", function( data ) {
            markup.push(data);
-        })
+        }),
 
+        $.getJSON( "http://wiseflat.com/appStore.json", function( data ) {
+           markup.push(data);
+        })
+        
+        /*$.getJSON( "schemas/store.basic.json", function( data ) {
+           markup.push(data);
+        }),
+        
+        $.getJSON( "schemas/store.config.json", function( data ) {
+           markup.push(data);
+        }),*/
+        
         .done(function(){
             window.localStorage.setItem("schemas", JSON.stringify(markup));
         });
