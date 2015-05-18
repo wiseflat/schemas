@@ -6,7 +6,7 @@
     {
       "device": "appstore-domogeek",
       "label": "Domogeek",
-      "Category": "Weather, plugin",
+      "category": "Weather, plugin",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-domogeek/master/package.json",
       "description": "Nice API",
       "price": "free"
@@ -14,7 +14,7 @@
     {
       "device": "appstore-email",
       "label": "Email",
-      "Category": "Notification",
+      "category": "Notification",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-email/master/package.json",
       "description": "Send email to your favorite SMTP server",
       "price": "free"
@@ -22,7 +22,7 @@
     {
       "device": "appstore-ipx800",
       "label": "Ipx800",
-      "Category": "Gateway",
+      "category": "Gateway",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-ipx800/master/package.json",
       "description": "Ipx800 v2/v3 gateway",
       "price": "free"
@@ -30,7 +30,7 @@
     {
       "device": "appstore-prowl",
       "label": "Prowl",
-      "Category": "Notification",
+      "category": "Notification",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-prowl/master/package.json",
       "description": "Send push notification to your smartphone",
       "price": "free"
@@ -38,7 +38,7 @@
     {
       "device": "appstore-rfxtrx",
       "label": "Rfxtrx",
-      "Category": "Gateway",
+      "category": "Gateway",
       "package": "https://raw.githubusercontent.com/Nodejs-XPL/xpl-rfxtrx/master/package.json",
       "description": "Rfxcom Rfxtrx gateway",
       "price": "free"
@@ -53,7 +53,7 @@
     {
       "device": "appstore-suncalc",
       "label": "Suncalc",
-      "Category": "Weather",
+      "category": "Weather",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-suncalc/master/package.json",
       "description": "Get the sun calculation and some fun meteo informations",
       "price": "free"
@@ -61,7 +61,7 @@
     {
       "device": "appstore-sysinfo",
       "label": "Sysinfo",
-      "Category": "System",
+      "category": "System",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-sysinfo/master/package.json",
       "description": "Monitor your system activity",
       "price": "free"
@@ -76,7 +76,7 @@
     {
       "device": "appstore-x10",
       "label": "X10",
-      "Category": "Gateway",
+      "category": "Gateway",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-x10/master/package.json",
       "description": "X10 gateway",
       "price": "free"
@@ -84,7 +84,7 @@
     {
       "device": "appstore-timer",
       "label": "Timer",
-      "Category": "widget",
+      "category": "widget",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-timer/master/package.json",
       "description": "Just a basic egg timer",
       "price": "free"
