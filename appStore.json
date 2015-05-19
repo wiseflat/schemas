@@ -4,7 +4,7 @@
 
     [
     {
-      "device": "appstore-domogeek",
+      "device": "xpl-domogeek",
       "label": "Domogeek",
       "category": "Meteo",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-domogeek/master/package.json",
@@ -12,7 +12,7 @@
       "price": "free"
     },
     {
-      "device": "appstore-email",
+      "device": "xpl-email",
       "label": "Email",
       "category": "Notification",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-email/master/package.json",
@@ -20,7 +20,7 @@
       "price": "free"
     },
     {
-      "device": "appstore-ipx800",
+      "device": "xpl-ipx800",
       "label": "Ipx800",
       "category": "Gateway",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-ipx800/master/package.json",
@@ -28,7 +28,7 @@
       "price": "free"
     },
     {
-      "device": "appstore-prowl",
+      "device": "xpl-prowl",
       "label": "Prowl",
       "category": "Notification",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-prowl/master/package.json",
@@ -36,7 +36,7 @@
       "price": "free"
     },
     {
-      "device": "appstore-rfxtrx",
+      "device": "xpl-rfxtrx",
       "label": "Rfxtrx",
       "category": "Gateway",
       "package": "https://raw.githubusercontent.com/Nodejs-XPL/xpl-rfxtrx/master/package.json",
@@ -44,7 +44,7 @@
       "price": "free"
     },
     {
-      "device": "appstore-shell",
+      "device": "xpl-shell",
       "label": "Shell",
       "category": "Programming",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-shell/master/package.json",
@@ -52,7 +52,7 @@
       "price": "free"
     },
     {
-      "device": "appstore-suncalc",
+      "device": "xpl-suncalc",
       "label": "Suncalc",
       "category": "Meteo",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-suncalc/master/package.json",
@@ -60,7 +60,7 @@
       "price": "free"
     },
     {
-      "device": "appstore-sysinfo",
+      "device": "xpl-sysinfo",
       "label": "Sysinfo",
       "category": "System",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-sysinfo/master/package.json",
@@ -68,7 +68,7 @@
       "price": "free"
     },
     {
-      "device": "appstore-teleinfo",
+      "device": "xpl-teleinfo",
       "label": "Teleinfo",
       "category": "Energy",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-teleinfo/master/package.json",
@@ -76,7 +76,7 @@
       "price": "free"
     },
     {
-      "device": "appstore-x10",
+      "device": "xpl-x10",
       "label": "X10",
       "category": "Gateway",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-x10/master/package.json",
@@ -84,7 +84,7 @@
       "price": "free"
     },
     {
-      "device": "appstore-timer",
+      "device": "xpl-timer",
       "label": "Timer",
       "category": "Widget",
       "package": "https://raw.githubusercontent.com/wiseflat/xpl-timer/master/package.json",
