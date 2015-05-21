@@ -55,7 +55,7 @@
       "device": "xpl-rfxtrx",
       "label": "Rfxtrx",
       "category": "Gateway",
-      "package": "https://github.com/Nodejs-XPL/xpl-rfxtrx.git",
+      "package": "git@git.wiseflat.com:math/xpl-rfxtrx.git",
       "description": "Rfxcom Rfxtrx gateway",
       "price": "free"
     },
