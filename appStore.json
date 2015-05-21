@@ -4,6 +4,14 @@
 
     [
     {
+      "device": "xpl-alarm",
+      "label": "Alarm",
+      "category": "Security",
+      "package": "git@git.wiseflat.com:math/xpl-alarm.git",
+      "description": "Send an alarm sound via Mplayer",
+      "price": "free"
+    },
+    {
       "device": "xpl-domogeek",
       "label": "Domogeek",
       "category": "Meteo",
