@@ -43,7 +43,7 @@
                     },
                     "command": {
                         "type": "string",
-                        "enum": [ "clone", "pull", "push", "remove" ],
+                        "enum": [ "install", "update", "uninstall" ],
                         "display": "disable"
                     }
             },
