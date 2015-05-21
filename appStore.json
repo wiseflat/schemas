@@ -7,7 +7,7 @@
       "device": "xpl-domogeek",
       "label": "Domogeek",
       "category": "Meteo",
-      "package": "https://raw.githubusercontent.com/wiseflat/xpl-domogeek/master/package.json",
+      "package": "https://github.com/wiseflat/xpl-domogeek.git",
       "description": "Nice API",
       "price": "free"
     },
@@ -15,7 +15,7 @@
       "device": "xpl-email",
       "label": "Email",
       "category": "Notification",
-      "package": "https://raw.githubusercontent.com/wiseflat/xpl-email/master/package.json",
+      "package": "https://github.com/wiseflat/xpl-email.git",
       "description": "Send email to your favorite SMTP server",
       "price": "free"
     },
@@ -23,7 +23,7 @@
       "device": "xpl-ipx800",
       "label": "Ipx800",
       "category": "Gateway",
-      "package": "https://raw.githubusercontent.com/wiseflat/xpl-ipx800/master/package.json",
+      "package": "https://github.com/wiseflat/xpl-ipx800.git",
       "description": "Ipx800 v2/v3 gateway",
       "price": "free"
     },
@@ -31,7 +31,7 @@
       "device": "xpl-prowl",
       "label": "Prowl",
       "category": "Notification",
-      "package": "https://raw.githubusercontent.com/wiseflat/xpl-prowl/master/package.json",
+      "package": "https://github.com/wiseflat/xpl-prowl.git",
       "description": "Send push notification to your smartphone",
       "price": "free"
     },
@@ -39,7 +39,7 @@
       "device": "xpl-rfxtrx",
       "label": "Rfxtrx",
       "category": "Gateway",
-      "package": "https://raw.githubusercontent.com/Nodejs-XPL/xpl-rfxtrx/master/package.json",
+      "package": "https://github.com/Nodejs-XPL/xpl-rfxtrx.git",
       "description": "Rfxcom Rfxtrx gateway",
       "price": "free"
     },
@@ -47,7 +47,7 @@
       "device": "xpl-shell",
       "label": "Shell",
       "category": "Programming",
-      "package": "https://raw.githubusercontent.com/wiseflat/xpl-shell/master/package.json",
+      "package": "https://github.com/wiseflat/xpl-shell.git",
       "description": "Execute your personnal shell script",
       "price": "free"
     },
@@ -55,7 +55,7 @@
       "device": "xpl-suncalc",
       "label": "Suncalc",
       "category": "Meteo",
-      "package": "https://raw.githubusercontent.com/wiseflat/xpl-suncalc/master/package.json",
+      "package": "https://github.com/wiseflat/xpl-suncalc.git",
       "description": "Get the sun calculation and some fun meteo informations",
       "price": "free"
     },
@@ -63,7 +63,7 @@
       "device": "xpl-sysinfo",
       "label": "Sysinfo",
       "category": "System",
-      "package": "https://raw.githubusercontent.com/wiseflat/xpl-sysinfo/master/package.json",
+      "package": "https://github.com/wiseflat/xpl-sysinfo.git",
       "description": "Monitor your system activity",
       "price": "free"
     },
@@ -71,7 +71,7 @@
       "device": "xpl-teleinfo",
       "label": "Teleinfo",
       "category": "Energy",
-      "package": "https://raw.githubusercontent.com/wiseflat/xpl-teleinfo/master/package.json",
+      "package": "https://github.com/wiseflat/xpl-teleinfo.git",
       "description": "Edf teleinformation",
       "price": "free"
     },
@@ -79,7 +79,7 @@
       "device": "xpl-x10",
       "label": "X10",
       "category": "Gateway",
-      "package": "https://raw.githubusercontent.com/wiseflat/xpl-x10/master/package.json",
+      "package": "https://github.com/wiseflat/xpl-x10.git",
       "description": "X10 gateway",
       "price": "free"
     },
@@ -87,8 +87,16 @@
       "device": "xpl-timer",
       "label": "Timer",
       "category": "Widget",
-      "package": "https://raw.githubusercontent.com/wiseflat/xpl-timer/master/package.json",
+      "package": "https://github.com/wiseflat/xpl-timer.git",
       "description": "Just a basic egg timer",
+      "price": "free"
+    },
+    {
+      "device": "xpl-test",
+      "label": "Test",
+      "category": "Widget",
+      "package": "git@git.wiseflat.com:math/xpl-test.git",
+      "description": "Just a test application",
       "price": "free"
     }
   ]
