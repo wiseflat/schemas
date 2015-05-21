@@ -44,6 +44,14 @@
       "price": "free"
     },
     {
+      "device": "xpl-radio",
+      "label": "Radio",
+      "category": "Music",
+      "package": "git@git.wiseflat.com:math/xpl-radio.git",
+      "description": "Listen to your favorite radio on your server",
+      "price": "free"
+    },
+    {
       "device": "xpl-rfxtrx",
       "label": "Rfxtrx",
       "category": "Gateway",
