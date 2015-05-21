@@ -1,6 +1,6 @@
 {
-    "id": "store.basic",
-    "name": "Store object",
+    "id": "store.config",
+    "name": "Store config",
     "type": "object",
     "properties": {
         "headerName": {
@@ -33,21 +33,16 @@
         },
         "body": {
             "properties": {
-                    "device": {
+                    "version": {
                         "type": "string",
                         "display": "disable"
                     },
-                    "repository": {
-                        "type": "string",
-                        "display": "disable"
-                    },
-                    "command": {
-                        "type": "string",
-                        "enum": [ "clone", "pull", "push", "remove" ],
-                        "display": "disable",
+                    "enable": {
+                        "type": "boolean",
+                        "display": "enable"
                     }
             },
-            "required": ["device", "repository", "command"]
+            "required": ["version", "enable"]
         }
     }
 }
