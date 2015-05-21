@@ -87,7 +87,7 @@
       "device": "xpl-teleinfo",
       "label": "Teleinfo",
       "category": "Energy",
-      "package": "https://github.com/wiseflat/xpl-teleinfo.git",
+      "package": "git@git.wiseflat.com:math/xpl-teleinfo.git",
       "description": "Edf teleinformation",
       "price": "free"
     },
