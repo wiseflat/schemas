@@ -39,7 +39,7 @@
       "device": "xpl-prowl",
       "label": "Prowl",
       "category": "Notification",
-      "package": "https://github.com/wiseflat/xpl-prowl.git",
+      "package": "git@git.wiseflat.com:math/xpl-prowl.git",
       "description": "Send push notification to your smartphone",
       "price": "free"
     },
