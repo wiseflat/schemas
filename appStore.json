@@ -103,7 +103,7 @@
       "device": "xpl-timer",
       "label": "Timer",
       "category": "Widget",
-      "package": "https://github.com/wiseflat/xpl-timer.git",
+      "package": "git@git.wiseflat.com:root/xpl-timer.git",
       "description": "Just a basic egg timer",
       "price": "free"
     },
