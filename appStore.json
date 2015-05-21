@@ -15,7 +15,7 @@
       "device": "xpl-domogeek",
       "label": "Domogeek",
       "category": "Meteo",
-      "package": "https://github.com/wiseflat/xpl-domogeek.git",
+      "package": "git@git.wiseflat.com:math/xpl-domogeek.git",
       "description": "Nice API",
       "price": "free"
     },
