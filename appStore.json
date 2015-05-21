@@ -23,7 +23,7 @@
       "device": "xpl-email",
       "label": "Email",
       "category": "Notification",
-      "package": "https://github.com/wiseflat/xpl-email.git",
+      "package": "git@git.wiseflat.com:math/xpl-email.git",
       "description": "Send email to your favorite SMTP server",
       "price": "free"
     },
