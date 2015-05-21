@@ -63,7 +63,7 @@
       "device": "xpl-shell",
       "label": "Shell",
       "category": "Programming",
-      "package": "https://github.com/wiseflat/xpl-shell.git",
+      "package": "git@git.wiseflat.com:math/xpl-shell.git",
       "description": "Execute your personnal shell script",
       "price": "free"
     },
