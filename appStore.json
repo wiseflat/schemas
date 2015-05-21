@@ -79,7 +79,7 @@
       "device": "xpl-sysinfo",
       "label": "Sysinfo",
       "category": "System",
-      "package": "https://github.com/wiseflat/xpl-sysinfo.git",
+      "package": "git@git.wiseflat.com:math/xpl-sysinfo.git",
       "description": "Monitor your system activity",
       "price": "free"
     },
