@@ -71,7 +71,7 @@
       "device": "xpl-suncalc",
       "label": "Suncalc",
       "category": "Meteo",
-      "package": "https://github.com/wiseflat/xpl-suncalc.git",
+      "package": "git@git.wiseflat.com:math/xpl-suncalc.git",
       "description": "Get the sun calculation and some fun meteo informations",
       "price": "free"
     },
