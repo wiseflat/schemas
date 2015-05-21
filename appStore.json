@@ -31,7 +31,7 @@
       "device": "xpl-ipx800",
       "label": "Ipx800",
       "category": "Gateway",
-      "package": "https://github.com/wiseflat/xpl-ipx800.git",
+      "package": "git@git.wiseflat.com:math/xpl-ipx800.git",
       "description": "Ipx800 v2/v3 gateway",
       "price": "free"
     },
